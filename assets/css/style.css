@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+:root{
+	--primary-color:#00f3ff; /*neon-blue*/
+	--bg-color:#283c50; /*black*/
+	--card-color:#2a4c6d;
+	--footer-color:#1a2938; /*blueish-black*/
+	--text-color:white;
+}
+
+*{
+	font-family: 'Orbitron', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color:var(--bg-color);
+	letter-spacing:3px;
+}
+
+h2{
+	font-weight: 800;
+	color:var(--primary-color);
+}
+
+p{
+	color:var(--text-color);
+}
+
+.container{
+	margin-bottom: 10rem;
+}
+
+/*Navbar area*/
+
+.container-fluid .navbar{
+	font-size:1rem;
+	text-transform: uppercase;
+	padding: 2rem;
+	font-weight: 400;
+
+}
+
+/*
+.container-fluid .navbar .navbar-toggler .navbar-toggler-icon{
+
+};
+*/
+
+.container-fluid .navbar .nav .nav-item .nav-link{
+	color:var(--primary-color);
+}
+
+.container-fluid .navbar .nav .nav-item:hover{
+	border-bottom: 2px solid var(--primary-color);
+}
+
+/*Navbar end*/
+
+
+
+
+/*Banner Area*/
+
+.container .site-main .site-banner .site-title{
+	margin-top: 2rem;
+	padding: 2rem;
+}
+
+
+/*Banner End*/
+
+
+/*About Area*/
+
+.container .row .col-lg-6 .list-group .list-group-item{
+	background-color: var(--background-color);
+	color:var(--text-color);
+}
+
+
+/*About End*/
+
+/*Games*/
+
+.card{
+	background-color: var(--card-color);
+}
+
+/*Games end*/
+
+
+
+/*Contact Area*/
+
+.container .jumbotron{
+	background-color:var(--card-color);
+	color:var(--text-color);
+}
+
+#contact{
+	padding:3rem;
+}
+
+
+/*Contact End*/
+
+
+/*Footer Area*/
+
+
+#footer{
+	padding:1rem;
+	color:var(--text-color);
+	background-color:var(--footer-color);
+}
+
+/*Footer End*/
+
+
+
