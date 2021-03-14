@@ -73,7 +73,7 @@ p{
 
 /*About Area*/
 
-.container .row .col-lg-6 .list-group .list-group-item{
+.container .row .col-lg-4 .list-group .list-group-item{
 	background-color: var(--background-color);
 	color:var(--text-color);
 }
